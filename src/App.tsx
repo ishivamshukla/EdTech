@@ -29,7 +29,7 @@ function App() {
       <EducationalAffiliations />
       <Footer />
       <Routes>
-        <Route path="/" element={<StudentPage />} />
+        {/* <Route path="/" element={<StudentPage />} /> */}
         {/* <Route path="/" element={<GamesPage/>} />
         <Route path="/game/:id" element={<SingleGamePage/>} />
         <Route path="/editgame/:id" element={<EditGamePage/>} />
