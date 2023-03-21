@@ -30,7 +30,7 @@ const Footer = () => {
             About Us
           </Typography>
           <Typography variant="body1" component="p" gutterBottom>
-            Education Hub is a leading educational institution that provides
+            Education IIMST is a leading educational institution that provides
             quality education to students around the world. Our mission is to
             empower individuals with the knowledge and skills they need to
             succeed in today's competitive world.
@@ -87,7 +87,7 @@ const Footer = () => {
               <ListItemIcon>
                 <EmailIcon />
               </ListItemIcon>
-              <ListItemText primary="info@educationhub.com" />
+              <ListItemText primary="info@educationiimst.com" />
             </ListItem>
           </List>
         </Grid>
@@ -96,7 +96,7 @@ const Footer = () => {
             Follow Us
           </Typography>
           <Typography variant="body1" component="p" gutterBottom>
-            Stay up to date with Education Hub news and updates by following us
+            Stay up to date with Education IIMST news and updates by following us
             on social media.
           </Typography>
           <List sx={{ display: "flex" }}>
@@ -118,6 +118,9 @@ const Footer = () => {
             </Grid>
             </Grid>
             {/* </CustomFooter> */}
+            <Typography variant="body2" color="textSecondary" align="center">
+          © {new Date().getFullYear()} Your Educationa IIMST. All rights reserved.
+        </Typography>
             </Container>
             </div>
   )};
