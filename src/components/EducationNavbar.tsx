@@ -18,7 +18,8 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SchoolIcon from "@mui/icons-material/School";
 import PersonIcon from "@mui/icons-material/Person";
 import InfoIcon from "@mui/icons-material/Info";
-import HistoryEduTwoToneIcon from '@mui/icons-material/HistoryEduTwoTone';
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
+
 
 const EducationNavbar = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -66,7 +67,7 @@ const EducationNavbar = () => {
           sx={{ mr: 2 }}
           component={Link} to="/" 
         >
-          <HistoryEduTwoToneIcon />
+          <LightbulbIcon />
         </IconButton>
         <Typography color="inherit" variant="h6" component={Link} to="/" sx={{ flexGrow: 1 }}>
           Education IIMST
