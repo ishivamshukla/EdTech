@@ -119,7 +119,7 @@ const Footer = () => {
             </Grid>
             {/* </CustomFooter> */}
             <Typography variant="body2" color="textSecondary" align="center">
-          © {new Date().getFullYear()} Your Educationa IIMST. All rights reserved.
+          © {new Date().getFullYear()} Your Educational IIMST. All rights reserved.
         </Typography>
             </Container>
             </div>
