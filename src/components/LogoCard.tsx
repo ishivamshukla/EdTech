@@ -32,7 +32,7 @@ const SubscriptionForm: React.FC = () => {
   };
 
   return (
-    <Box sx={{ mb: 2 }}>
+    <Box sx={{ mb: 2 }} >
       <Typography variant="h6" gutterBottom>
         Subscribe to our newsletter
       </Typography>
@@ -89,6 +89,7 @@ const EducationalAffiliations: React.FC = () => {
   ];
 
   return (
+    <div className="logo-card">
     <Container maxWidth="xl">
     <Box sx={{ flexGrow: 1 }}>
       <Typography margin={"4rem"} align="center" variant="h4" gutterBottom>
@@ -103,9 +104,10 @@ const EducationalAffiliations: React.FC = () => {
           ))}
         </Grid>
       </Box>
-      <SubscriptionForm />
+      {/* <SubscriptionForm /> */}
     </Box>
     </Container>
+    </div>
   );
 };
 

@@ -13,11 +13,12 @@ import {
   useTheme,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import MenuIcon from "@mui/icons-material/Menu";
+// import MenuIcon from "@mui/icons-material/Menu";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SchoolIcon from "@mui/icons-material/School";
 import PersonIcon from "@mui/icons-material/Person";
 import InfoIcon from "@mui/icons-material/Info";
+import HistoryEduTwoToneIcon from '@mui/icons-material/HistoryEduTwoTone';
 
 const EducationNavbar = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -56,18 +57,18 @@ const EducationNavbar = () => {
   );
 
   return (
-    <AppBar position="static" color="primary">
+    <AppBar  position="static" color="primary">
       <Toolbar>
         <IconButton
           edge="start"
           color="inherit"
-          aria-label="menu"
+          aria-label="logo"
           sx={{ mr: 2 }}
-          onClick={handleMenuOpen}
+          component={Link} to="/" 
         >
-          <MenuIcon />
+          <HistoryEduTwoToneIcon />
         </IconButton>
-        <Typography variant="h6" component={Link} to="/" sx={{ flexGrow: 1 }}>
+        <Typography color="inherit" variant="h6" component={Link} to="/" sx={{ flexGrow: 1 }}>
           Education IIMST
         </Typography>
         {isMobile ? (

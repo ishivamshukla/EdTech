@@ -5,6 +5,7 @@ import cardImage2 from "./cardImage2.png";
 
 const WhyEducationHub = () => {
   return (
+    <div className="education-why">
     <Container maxWidth="xl" >
      <Typography margin={"4rem"} variant="h4" align="center" gutterBottom>
           Why Choose Education IIMST?
@@ -64,6 +65,7 @@ const WhyEducationHub = () => {
       </Grid>
     </Grid>
     </Container>
+    </div>
   );
 };
 

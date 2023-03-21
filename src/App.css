@@ -1,12 +1,27 @@
 .navbar {
-  background-image: linear-gradient(90deg, rgb(12, 237, 147), rgb(13, 200, 220));
+    background-color: #e9f2f7;
 }
 
-a, li {
-  list-style: none;
-  text-decoration: none;
+
+.education-why{
+    padding: 10px;
+    padding-bottom: 40px;
+
 }
 
-.inputField {
-  height: 30px;
+.trending-course{
+    background-color: #e9f2f7;
+    padding: 10px;
+
+}
+
+.logo-card{
+    padding: 10px;
+
+}
+
+.footer{
+    background-color: #e9f2f7;
+    padding: 20px;
+    padding-bottom: 40px;
 }

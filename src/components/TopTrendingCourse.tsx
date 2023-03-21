@@ -76,6 +76,7 @@ const TopTrendingCourses: React.FC = () => {
   ];
 
   return (
+    <div className="trending-course">
     <Container maxWidth="xl">
     <Box sx={{ flexGrow: 1 }}>
       <Typography margin={"4rem"} align="center" variant="h4" gutterBottom>
@@ -92,6 +93,7 @@ const TopTrendingCourses: React.FC = () => {
       </Box>
     </Box>
     </Container>
+    </div>
   );
 };
 

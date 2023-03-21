@@ -22,8 +22,9 @@ import EmailIcon from "@mui/icons-material/Email";
 const Footer = () => {
   return (
     // <CustomFooter>
+    <div className="footer">
     <Container maxWidth="xl" color="primary" >
-      <Grid margin={"0rem"} container spacing={2} color="primary">
+      <Grid margin={"0rem"} container spacing={2} >
         <Grid item xs={12} md={3}>
           <Typography  variant="h6" component="h2" gutterBottom>
             About Us
@@ -118,6 +119,7 @@ const Footer = () => {
             </Grid>
             {/* </CustomFooter> */}
             </Container>
+            </div>
   )};
 
   export default Footer;
