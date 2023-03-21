@@ -13,7 +13,7 @@ import {
   useTheme,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-// import MenuIcon from "@mui/icons-material/Menu";
+import MenuIcon from "@mui/icons-material/Menu";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SchoolIcon from "@mui/icons-material/School";
 import PersonIcon from "@mui/icons-material/Person";
@@ -107,7 +107,7 @@ const EducationNavbar = () => {
           onClick={handleMenuOpen}
           sx={{ ml: 2 }}
         >
-          <AccountCircleIcon />
+          <MenuIcon />
         </IconButton>
         {isMobile ? null : (
           <Menu
